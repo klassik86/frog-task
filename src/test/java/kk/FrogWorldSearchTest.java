@@ -3,10 +3,7 @@ package kk;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-public class FrogWorldSearchTest {
+public class FrogWorldSearchTest extends AbstractFrogWorldTest {
 
     @Test
     public void testOneJump() {
@@ -95,9 +92,4 @@ public class FrogWorldSearchTest {
         Assert.assertEquals(0, frogWorld.getMinJumpCount());
     }
 
-    private String convertHistory(List<Cell> jumpHistoryCells) {
-        return jumpHistoryCells.stream()
-                .map(Cell::toString)
-                .collect(Collectors.joining(","));
-    }
 }

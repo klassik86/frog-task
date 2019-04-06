@@ -3,7 +3,7 @@ package kk;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FrogWorldJumpTest {
+public class FrogWorldJumpTest extends AbstractFrogWorldTest {
 
     @Test
     public void testJumpType0() {
