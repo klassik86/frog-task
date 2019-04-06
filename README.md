@@ -1,6 +1,8 @@
 # frog-task
 solving of a frog problem
 
+// TODO: (padudin) translate text below to English
+
  Лягушка
 
 На изображении:
